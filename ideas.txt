@@ -1,0 +1,7 @@
+AIStoryGenerator
+
+- Use ChatGPT/OpenAI to generate a story based on a keyword/promt
+- Tell it to always give two options how the story should continue
+- When the user chooses one of the two options the AI will continue the story based on the option which was chosen
+- First tell the AI that the parts of the story which it tells should not be long. Maybe 2-4 sentences, so that the user does not have to read a lot.
+- In the background generate a picture based on the story and put the text on the picture maybe or below/above it.
