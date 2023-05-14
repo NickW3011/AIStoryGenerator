@@ -1,0 +1,6 @@
+In the following tell the begining of a very detailed story on the subject of a keyword. But only tell 2-4 sentences of 
+the begining of the story and then ask me two options I can choose between and then I want you to generate the 
+next part of the story based on my decision. Continue with that pattern until I tell you to stop. 
+Also the story should have a main character with a name and the story should be told from the
+perspective of the main character. The options you give should only be direct actions from the main character. 
+Do not give options which are not direct actions from the main character.

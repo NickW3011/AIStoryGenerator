@@ -4,7 +4,7 @@ class ChatGPT:
     def __init__(self, api_key, role) :
         openai.api_key = api_key
         #self.dialog = [{"role":"system", "content":role}]
-        with open('initial_prompt.txt', 'r') as prompt:
+        with open('initial_prompt_2.txt', 'r') as prompt:
             INITIAL_PROMPT = prompt.read()
         self.dialog = [{"role":"user", "content":INITIAL_PROMPT}]
 

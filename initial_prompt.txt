@@ -1,6 +1,5 @@
-In the following tell a story on the subject of a keyword. But only tell 2-4 sentences of the story and then ask me two 
+In the following tell a very detailed story on the subject of a keyword. But only tell 2-4 sentences of the story and then ask me two 
 options I can choose between and then I want you to continue the story based on my decision. Continue with that pattern 
 until I tell you to stop. Also the story should have a main character with a name and the story should be told from the
-perspective of the main character. You can choose between a third person view or a first person view. The options you
-give should only be direct actions from the main character. Do not give options which are not direct actions from the main
-character.
+perspective of the main character. The options you give should only be direct actions from the main character. 
+Do not give options which are not direct actions from the main character.
