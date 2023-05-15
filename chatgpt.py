@@ -1,4 +1,5 @@
 import openai
+import requests
 
 class ChatGPT:
     def __init__(self, api_key, role) :
@@ -23,6 +24,8 @@ if __name__ == '__main__':
     with open('api_key.txt', 'r') as api_key:
         API_KEY = api_key.read()
     chat_gpt = ChatGPT(API_KEY, "Be the main character of a story!")
+
+    url = 'http://localhost:5000/api/update'
     
     print("Chose a keyword for your story...")
     keyword = input("> ")
@@ -34,3 +37,11 @@ if __name__ == '__main__':
         print()
         result = chat_gpt.choose_option(option)
         print(result)
+
+        payload = {'new_text': result}
+        response = requests.post(url, json=payload)
+
+        if response.status_code == 200:
+            print('Text updated successfully!')
+        else:
+            print('Error updating text:', response.json().get('error'))
